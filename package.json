@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "build": "wintersmith build",
+    "start": "concurrently --kill-others \"npm run scss\" \"npm run preview\"",
+    "preview": "wintersmith preview --port 8112",
+    "scss": "node-sass --include-path styles -x -w styles/app.scss contents/css/app.css"
+  },
+  "repository": "https://bitbucket.org/megoth/qb-frontend-overview",
+  "dependencies": {
+    "moment": "2.3.x",
+    "underscore": "1.4.x",
+    "typogr": "0.5.x"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0",
+    "node-sass": "^4.5.3",
+    "wintersmith": "^2.4.1"
+  }
+}

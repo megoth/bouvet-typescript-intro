@@ -1,0 +1,27 @@
+{
+  "locals": {
+    "name": "Questback front-end",
+    "owner": "Arne Hassel",
+    "description": "Presentation on Questback's front-end architecture"
+  },
+  "plugins": [
+    "./plugins/slides.coffee"
+  ],
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr"
+  },
+  "jade": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  },
+  "slides": [
+    "intro",
+    "agenda",
+    "end"
+  ]
+}

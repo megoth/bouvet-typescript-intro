@@ -1,0 +1,12 @@
+extends layout
+
+block content
+    - var slides = env.helpers.getSlides(contents)
+    each slide in slides
+        section.slide(id=env.helpers.getSlideId(slide), class=slide.metadata.type)
+            if slide.metadata.type === 'full'
+                h1!= slide.title
+            else
+                h2!= slide.title
+                != slide.html
+

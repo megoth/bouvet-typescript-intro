@@ -1,5 +1,5 @@
 ---
-title: Introduction to TypeScript for Bouvet</span>
+title: Introduction to TypeScript
 view: none
 type: full
 ---

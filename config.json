@@ -22,6 +22,10 @@
   "slides": [
     "intro",
     "agenda",
+    "typescript",
+    "tools",
+    "compatibility",
+    "alternatives",
     "end"
   ]
 }

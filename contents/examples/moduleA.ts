@@ -1,0 +1,1 @@
+export const moduleFoo = 42;

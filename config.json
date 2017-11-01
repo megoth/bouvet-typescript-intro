@@ -1,8 +1,8 @@
 {
   "locals": {
-    "name": "Questback front-end",
+    "name": "Introduction to TypeScript",
     "owner": "Arne Hassel",
-    "description": "Presentation on Questback's front-end architecture"
+    "description": "An introduction to TypeScript, to be presented at Bouvet"
   },
   "plugins": [
     "./plugins/slides.coffee"
@@ -26,6 +26,7 @@
     "tools",
     "compatibility",
     "alternatives",
+    "conclusion",
     "end"
   ]
 }

@@ -5,12 +5,11 @@ type: default
 ---
 
 - [TSLint](https://palantir.github.io/tslint/)
-- [@types](https://www.npmjs.com/search?q=%40types) (w/NPM - 3886 packages as of this writing)
+- [@types](https://www.npmjs.com/search?q=%40types) (w/NPM - 3800+ packages)
 - [webpack](https://github.com/TypeStrong/ts-loader) and [Rollup](https://github.com/rollup/rollup-plugin-typescript)
 - IDEs
   - [WebStorm](https://www.jetbrains.com/help/webstorm/typescript.html)
   - [Visual Studio Code](https://code.visualstudio.com/docs/languages/typescript)
-  - [Sublime Text](https://github.com/Microsoft/TypeScript-Sublime-Plugin)
   - &hellip; and more
 - Testing
   - [Karma](https://www.npmjs.com/package/karma-typescript)
